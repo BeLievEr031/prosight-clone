@@ -1,5 +1,7 @@
+import CTA from "../sections/CTA"
 import FAQ from "../sections/Faq"
 import Features from "../sections/Features"
+import Footer from "../sections/Footer"
 import HeroSection from "../sections/Hero"
 import HowItWorks from "../sections/HowItWorks"
 import Partners from "../sections/Partners"
@@ -16,6 +18,8 @@ function Home() {
             <HowItWorks />
             <Testimonials />
             <FAQ />
+            <CTA />
+            <Footer />
         </div>
     )
 }
