@@ -1,3 +1,4 @@
+import FAQ from "../sections/Faq"
 import Features from "../sections/Features"
 import HeroSection from "../sections/Hero"
 import HowItWorks from "../sections/HowItWorks"
@@ -14,6 +15,7 @@ function Home() {
             <SecuritySection />
             <HowItWorks />
             <Testimonials />
+            <FAQ />
         </div>
     )
 }
